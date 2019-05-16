@@ -10,6 +10,11 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%#Navbar%> 
+    <%= render partial: "layouts/navbar"%>
+    <div class="ui container">
+        <%= yield %>
+    </div >
+    <%#Footer%>
   </body>
 </html>
