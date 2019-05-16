@@ -18,7 +18,7 @@ class PeopleController < ApplicationController
     if @person.save
       redirect_to people_path 
     else
-      render partial: "form"
+      render :new
     end 
   end 
 
@@ -32,7 +32,7 @@ class PeopleController < ApplicationController
       redirect_to person_path(@person)
       # redirect_to @person
     else 
-      render partial: "form"
+      render :edit 
     end 
   end 
   

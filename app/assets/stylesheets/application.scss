@@ -1,7 +1,12 @@
 @import "semantic-ui";
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+// @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-* {
-  font-family: Nunito, Helvetica, sans-serif; 
+body {
+  font-family: Roboto, Helvetica, sans-serif; 
   font-weight: bold; 
 }
+
+// body {
+//   margin-top: 20px;
+// }
